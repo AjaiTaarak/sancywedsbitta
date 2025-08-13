@@ -1,0 +1,21 @@
+.scroll-float {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.scroll-float-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.char {
+  display: inline-block;
+  will-change: opacity, transform;
+} 
