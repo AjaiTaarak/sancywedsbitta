@@ -99,7 +99,7 @@ const BrideSection = () => {
         </div>
       </div>
       <h2 className="text-3xl font-semibold font-satisfy text-pink-600 mb-4 text-center w-full">About our Sancy</h2>
-      <p className="text-gray-500 text-l text-center w-full">Sancy is an artist from Kochi, known for her creativity and kindness. Her family cherishes their cultural roots and welcomes everyone with open arms.</p>
+      <p className="text-gray-500 text-l text-center w-full">Sancy, from Tirupur with roots in Thrissur, is a former HR professional at Accenture, Bangalore, and a vibrant mix of charm, mischief, and talent. A passionate dancer, soulful singer, and food lover, she treasures her family above all.</p>
     </motion.section>
   );
 };

@@ -25,7 +25,7 @@ const HeroSection = () => (
         className="text-xl md:text-2xl font-satisfy text-pink-100 drop-shadow-lg"
       />
       <BlurText
-        text="Sancy ❤️ Bitta"
+        text="Sancy ❤️ Bitto"
         delay={150}
         animateBy="words"
         direction="top"

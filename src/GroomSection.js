@@ -98,8 +98,8 @@ const GroomSection = () => {
           </div>
         </div>
       </div>
-      <h2 className="text-3xl font-semibold font-satisfy #4B2E1E mb-4 text-center w-full">About our Bitta</h2>
-      <p className="text-gray-500 text-l text-center w-full">Bitta is a senior software engineer working at Google, Bangalore. He comes from coimbatore, has aclose-knit family that values tradition and simplicity.</p>
+      <h2 className="text-3xl font-semibold font-satisfy #4B2E1E mb-4 text-center w-full">About our Bitto</h2>
+      <p className="text-gray-500 text-l text-center w-full">Bitto, a design engineer from Coimbatore with roots in Thrissur, is kind, disciplined, and deeply responsible — a true gentleman who values family, honors tradition, and savors life's joys.</p>
     </motion.section>
   );
 };
