@@ -4,10 +4,10 @@ import "./CountdownCard.css";
 function getDaysLeft() {
   const now = new Date();
   const currentYear = now.getFullYear();
-  let weddingDate = new Date(`${currentYear}-09-08T10:30:00`);
+  let weddingDate = new Date(`${currentYear}-09-06T10:30:00`);
   // If today is after July 28, use next year
   if (now > weddingDate) {
-    weddingDate = new Date(`${currentYear + 1}-09-08T10:30:00`);
+    weddingDate = new Date(`${currentYear + 1}-09-06T10:30:00`);
   }
   const diff = weddingDate - now;
   const days = Math.ceil(diff / (1000 * 60 * 60 * 24));

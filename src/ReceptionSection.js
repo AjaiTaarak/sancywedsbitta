@@ -33,9 +33,9 @@ const ReceptionSection = () => (
       <div className="flex flex-col items-center px-2">
         <div className="text-xs tracking-widest font-semibold mb-1" style={{ color: '#ffe9e9', opacity: 0.8 }}>SEPTEMBER</div>
         <div className="flex items-center">
-          <div className="text-sm font-semibold mr-3" style={{ color: '#ffe9e9', opacity: 0.8 }}>MODAY</div>
-          <div className="text-5xl font-bold mx-2" style={{ color: '#ffe9e9' }}>8</div>
-          <div className="text-sm font-semibold ml-3" style={{ color: '#ffe9e9', opacity: 0.8 }}>AT 6PM</div>
+          <div className="text-sm font-semibold mr-3" style={{ color: '#ffe9e9', opacity: 0.8 }}>SATURDAY</div>
+          <div className="text-5xl font-bold mx-2" style={{ color: '#ffe9e9' }}>6</div>
+          <div className="text-sm font-semibold ml-3" style={{ color: '#ffe9e9', opacity: 0.8 }}>AT 12:00PM</div>
         </div>
         <div className="text-xs tracking-widest font-semibold mt-1" style={{ color: '#ffe9e9', opacity: 0.8 }}>2025</div>
       </div>
@@ -43,7 +43,7 @@ const ReceptionSection = () => (
     </div>
     <div className="flex justify-center">
     <button
-        onClick={() => window.open("https://maps.app.goo.gl/s3LbeJFLtZF86CUX6", "_blank")}
+        onClick={() => window.open("https://maps.app.goo.gl/uTtXxKFvh1JEsiKa6", "_blank")}
         className="learn-more btn-reception mb-4">
         View directions
       </button>

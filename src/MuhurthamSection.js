@@ -27,7 +27,7 @@ const MuhurthamSection = () => (
       containerClassName="mb-2 text-center w-full"
       textClassName="text-5xl font-semibold mt-2 font-satisfy"
     >
-      Holy Matrimony
+      Engagement
     </ScrollFloat>
     <p className="mt-8 text-center w-full" style={{ color: '#4B2E1E', opacity: 0.9 }}>
     We joyfully invite you to witness the sacred celebration as they are united in Christ through the covenant of marriage.
@@ -38,9 +38,9 @@ const MuhurthamSection = () => (
       <div className="flex flex-col items-center px-2">
         <div className="text-xs tracking-widest font-semibold mb-1" style={{ color: '#4B2E1E', opacity: 0.8 }}>SEPTEMBER</div>
         <div className="flex items-center">
-          <div className="text-sm font-semibold mr-3" style={{ color: '#4B2E1E', opacity: 0.8 }}>MONDAY</div>
-          <div className="text-5xl font-bold mx-2" style={{ color: '#4B2E1E' }}>8</div>
-          <div className="text-sm font-semibold ml-3" style={{ color: '#4B2E1E', opacity: 0.8 }}>AT 10:30AM</div>
+          <div className="text-sm font-semibold mr-3" style={{ color: '#4B2E1E', opacity: 0.8 }}>SATURDAY</div>
+          <div className="text-5xl font-bold mx-2" style={{ color: '#4B2E1E' }}>6</div>
+          <div className="text-sm font-semibold ml-3" style={{ color: '#4B2E1E', opacity: 0.8 }}>AT 11:00AM</div>
         </div>
         <div className="text-xs tracking-widest font-semibold mt-1" style={{ color: '#4B2E1E', opacity: 0.8 }}>2025</div>
       </div>
@@ -48,7 +48,7 @@ const MuhurthamSection = () => (
     </div>
     <div className="flex justify-center">
       <button
-        onClick={() => window.open("https://maps.app.goo.gl/y9XSoM1bXpgSDajs8", "_blank")}
+        onClick={() => window.open("https://maps.app.goo.gl/uTtXxKFvh1JEsiKa6", "_blank")}
         className="learn-more btn-muhurtham"
       >
         View directions
