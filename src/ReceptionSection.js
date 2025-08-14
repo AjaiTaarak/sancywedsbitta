@@ -43,7 +43,7 @@ const ReceptionSection = () => (
     </div>
     <div className="flex justify-center">
     <button
-        onClick={() => window.open("https://maps.app.goo.gl/uTtXxKFvh1JEsiKa6", "_blank")}
+        onClick={() => window.open("https://maps.app.goo.gl/N1XWBGXNGXRizN6K6", "_blank")}
         className="learn-more btn-reception mb-4">
         View directions
       </button>
