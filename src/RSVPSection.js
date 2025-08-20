@@ -64,6 +64,16 @@ const RSVPSection = () => {
         <span>I'll be there</span>
       </button>
       
+      {/* Admin Link to RSVP List */}
+      <div className="mt-4 text-center">
+        <a 
+          href="/rsvplist" 
+          className="text-xs text-gray-500 hover:text-pink-500 transition-colors underline"
+        >
+          View Guest List
+        </a>
+      </div>
+      
       {/* RSVP Dialog */}
       {dialogOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40">

@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./index.css";
 import HeroSection from "./HeroSection";
 import GroomSection from "./GroomSection";
@@ -6,13 +7,14 @@ import BrideSection from "./BrideSection";
 import ReceptionSection from "./ReceptionSection";
 import MuhurthamSection from "./MuhurthamSection";
 import RSVPSection from "./RSVPSection";
+import RSVPListPage from "./RSVPListPage";
 import ScrollVelocity from "./ScrollVelocity";
 import { FaWhatsapp, FaInstagram, FaPinterest } from "react-icons/fa";
 import { FiInstagram, FiPinterest, FiMessageCircle } from "react-icons/fi";
 
-function App() {
+// Main Wedding Invite Component
+const WeddingInvite = () => {
   return (
-
     <div className="min-h-screen flex justify-center" style={{ backgroundColor: '#fdf8f2' }}>
       <div className="w-full max-w-[420px] min-h-screen shadow-xl flex flex-col" style={{ backgroundColor: '#fdf8f2' }}>
         <HeroSection />
@@ -120,6 +122,17 @@ function App() {
         </div>
       </div>
     </div>
+  );
+};
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<WeddingInvite />} />
+        <Route path="/rsvplist" element={<RSVPListPage />} />
+      </Routes>
+    </Router>
   );
 }
 
